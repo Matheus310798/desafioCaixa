@@ -1,0 +1,57 @@
+{
+  "info": {
+    "_postman_id": "b167ff3b-ae61-4855-b1e2-9b6f7e453274",
+    "name": "caixa",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "15827729"
+  },
+  "item": [
+    {
+      "name": "listarProdutos",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/api/produtos",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "produtos"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "salvarProdutos",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"nome\": \"Caixa\",\r\n    \"preco\": 10.10\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8080/api/produtos",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "produtos"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
